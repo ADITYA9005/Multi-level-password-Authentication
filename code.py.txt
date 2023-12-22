@@ -15,14 +15,14 @@ import os
 # Constants (Replace with your own values)
 SMTP_PORT = 587
 SMTP_SERVER = "smtp.gmail.com"
-EMAIL_FROM = "projectminor206@gmail.com"
-PASSWORD = "zwmfjfwjvimmjddg"
+EMAIL_FROM = " your email address"
+PASSWORD = "secret key while creating mail automation"
 SUBJECT = "New email from TIE with attachments!!"
 
 # Database connection function
 def connect_to_database():
     try:
-        return mysql.connector.connect(
+        return mysql. connector. connect(
             host='localhost',
             port=3306,
             user='root',
